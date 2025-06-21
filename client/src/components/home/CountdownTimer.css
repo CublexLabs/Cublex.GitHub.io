@@ -1,0 +1,124 @@
+.countdown-timer {
+  text-align: center;
+  margin: var(--spacing-xl) 0;
+}
+
+.countdown-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: var(--spacing-lg);
+  max-width: 600px;
+  margin: 0 auto var(--spacing-xl) auto;
+}
+
+.countdown-unit {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.countdown-unit:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-5px);
+}
+
+.unit-icon {
+  font-size: var(--font-size-lg);
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: var(--spacing-sm);
+}
+
+.unit-value {
+  font-size: var(--font-size-xxl);
+  font-weight: bold;
+  color: white;
+  margin-bottom: var(--spacing-xs);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: 'Orbitron', monospace;
+}
+
+.unit-label {
+  font-size: var(--font-size-sm);
+  color: rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.countdown-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-md);
+  font-size: var(--font-size-lg);
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: var(--spacing-lg);
+}
+
+.message-icon {
+  font-size: var(--font-size-xl);
+  color: var(--accent-orange);
+  animation: rocket-bounce 2s ease-in-out infinite;
+}
+
+@keyframes rocket-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .countdown-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-md);
+  }
+  
+  .countdown-unit {
+    padding: var(--spacing-md);
+  }
+  
+  .unit-value {
+    font-size: var(--font-size-xl);
+  }
+  
+  .unit-label {
+    font-size: var(--font-size-xs);
+  }
+  
+  .countdown-message {
+    font-size: var(--font-size-md);
+    flex-direction: column;
+    gap: var(--spacing-sm);
+  }
+}
+
+@media (max-width: 480px) {
+  .countdown-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-sm);
+  }
+  
+  .countdown-unit {
+    padding: var(--spacing-sm);
+  }
+  
+  .unit-value {
+    font-size: var(--font-size-lg);
+  }
+  
+  .unit-icon {
+    font-size: var(--font-size-md);
+  }
+  
+  .countdown-message {
+    font-size: var(--font-size-sm);
+  }
+} 
