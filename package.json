@@ -1,7 +1,7 @@
 {
-  "name": "cublex-server",
+  "name": "cublex-net",
   "version": "1.0.0",
-  "description": "Cublex - A vibrant Minecraft server inspired by Minecraft 1.21.6 features",
+  "description": "Cublex - A vibrant Minecraft server",
   "main": "server/index.js",
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\"",
@@ -12,8 +12,8 @@
     "install-all": "npm install && cd server && npm install && cd ../client && npm install"
   },
   "keywords": ["minecraft", "server", "cublex", "react", "nodejs"],
-  "author": "Cublex Team",
-  "license": "MIT",
+  "author": "DevBD1",
+  "license": "Proprietary",
   "devDependencies": {
     "concurrently": "^8.2.2",
     "jest": "^29.7.0"
