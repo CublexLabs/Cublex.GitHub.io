@@ -1,24 +1,9 @@
-# Cublex - Minecraft 1.21.6 Server
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-A vibrant, interactive landing page for "Cublex", a new Minecraft server inspired by the latest Minecraft 1.21.6 features. Built with modern web technologies and featuring an animated Happy Ghast flyover, vibrant visuals, and a responsive design.
+# Cublex SMP Game WebApp
+Source for [the WebApp](https://www.cublex.net/).
 
-## 🎮 Features
-
-### Minecraft 1.21.6 Integration
-- **Tricky Trials**: Trial Chambers, Breeze & Bogged mobs, Mace weapon with enchantments
-- **Spring Update**: Biome variants, firefly bushes, wildflowers, fallen trees
-- **Chase the Skies**: Dried Ghast → Ghastling → Happy Ghast lifecycle, rideable Ghasts with harnesses
-
-### Website Features
-- ✨ Animated Happy Ghast flyover with tentacles and expressions
-- 🌟 Vibrant Minecraft-inspired design with gradients and animations
-- 📱 Fully responsive design for all devices
-- 🔐 User authentication system (mock implementation)
-- 👑 Admin panel with server management features
-- 📊 Real-time server statistics and player count
-- ⏰ Countdown timer to public launch
-- 🎨 Particle effects and cloud animations
-- 📍 Player Locator Bar HUD motif in navigation
+A vibrant, interactive landing page for "Cublex", a new Minecraft server. Built with modern web technologies and featuring vibrant visuals, and a responsive design.
 
 ## 🛠️ Tech Stack
 
@@ -256,23 +241,12 @@ CLIENT_URL=https://your-domain.com
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- Inspired by the [Hytale](https://hytale.com/) website design
-- Minecraft 1.21.6 features and mechanics
-- React and Node.js communities
-- Framer Motion for amazing animations
-
 ## 📞 Support
 
-- **Email**: support@cublex.com
-- **Discord**: discord.gg/cublex
-- **Website**: https://cublex.com
+- **Email**: support@cublex.net
+- **Discord**: [discord.gg/cublex](https://discord.gg/Hqq3CdnenN)
+- **Website**: https://www.cublex.net
 
 ---
 
-**Cublex** - Experience the latest Minecraft 1.21.6 features in our vibrant community! 🎮✨ 
+**Cublex** - Experience the latest Minecraft features in our vibrant community! 🎮✨ 
