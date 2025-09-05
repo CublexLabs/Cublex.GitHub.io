@@ -1,4 +1,5 @@
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
+## License
+This project is proprietary. You may view the code, but you are not allowed to copy, modify, or use it in any way without explicit permission.
 
 # Cublex SMP Game WebApp
 Source for [the WebApp](https://www.cublex.net/).
